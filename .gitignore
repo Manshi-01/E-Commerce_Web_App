@@ -1,0 +1,19 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Private keys
+*.pem
+*.key
+
+# macOS
+.DS_Store
+# Terraform local files
+**/terra-key
+**/tfplan
